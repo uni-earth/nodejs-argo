@@ -1,18 +1,12 @@
 {
-  "name": "nodejs-argo",
-  "version": "1,0,0",
-  "description": "Thsi is a node project",
-  "main": "index.js",
-  "author": "eooce",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
+  "name": "nodejs-argo-static",
+  "version": "1.0.0",
+  "description": "Pure Static Build with Xray",
+  "main": "main.sys",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
+    "start": "web-runtime main.sys"
   },
   "dependencies": {
-    "axios": "latest",
     "express": "^4.18.2"
   },
   "engines": {
